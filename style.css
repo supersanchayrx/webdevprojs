@@ -1,0 +1,64 @@
+#main-text{
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    color: whitesmoke;
+    text-align: center;
+    transition: all 1s;
+}
+#bottomtext:hover {
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+#imagebox img{
+    width: 100%; height: 80%;
+    margin: auto;
+    scale: 0.8;
+    transition: all 0.5s;
+}
+#imagebox img{
+    transform: scale(1.2);
+    border-radius: 100px;
+}
+#imagebox:hover img{
+    transform: scale(1.2);
+    border-radius: 300px;
+}
+
+
+#bottomtext{
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    padding: 50px;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    transition: all 1s;
+}
+
+@media (max-width: 600px) {
+    #main-text
+    {
+        font-size: 12px;
+        
+    }
+}
+@media (max-width: 600px) {
+    #bottomtext
+    {
+        font-size: 5px;
+    }
+@media (max-width: 600px){
+    #imagebox img{
+        scale: 0.5;
+    }
+}
+}
+    
+
+
